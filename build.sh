@@ -1,8 +1,7 @@
 #!/bin/sh
 #
 Module=GdkPixbuf-2.0
-MODULE=`echo "${Module}" | tr '[:lower:]' '[:upper:]'`
-module=`echo "${Module}" | tr '[:upper:]' '[:lower:]'`
+module=gdk-pixbuf-2.0
 export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:"${PATH}"
 GOBJECT_LIBDIR=`pkg-config --libs-only-L gobject-introspection-1.0 2>/dev/null | tr ' ' '\n' | grep gobject-introspection | tail -n1 | cut -c3-`
 GOBJECT_DIR=`dirname "${GOBJECT_LIBDIR}"`
