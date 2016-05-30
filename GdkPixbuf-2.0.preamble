@@ -3,3 +3,6 @@ import CGdkPixbuf
 import GLib
 import GIO
 import GModule
+
+/// A simple iterator over pixbuf animations
+public typealias GdkPixbufSimpleAnimIter = GdkPixbufAnimationIter
