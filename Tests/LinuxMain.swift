@@ -1,6 +1,6 @@
 import XCTest
-@testable import SwiftGdkPixbufTestSuite
+@testable import GdkPixbufTestSuite
 
 XCTMain([
-	 testCase(SwiftGdkPixbufTests.allTests),
+	 testCase(GdkPixbufTests.allTests),
 ])
