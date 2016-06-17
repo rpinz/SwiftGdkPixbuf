@@ -8,7 +8,7 @@ class GdkPixbufTests: XCTestCase {
         let w: CInt = 320
         let h: CInt = 240
         let b: CInt = 8
-        let pixbuf = Pixbuf(colorspace: .rgb, has_alpha: false, bits_per_sample: b, width: w, height: h)
+        let pixbuf = Pixbuf(colorspace: .rgb, hasAlpha: false, bitsPerSample: b, width: w, height: h)
         XCTAssert(pixbuf.colorspace == .rgb)
         XCTAssertFalse(pixbuf.hasAlpha)
         XCTAssertEqual(pixbuf.bitsPerSample, b)
