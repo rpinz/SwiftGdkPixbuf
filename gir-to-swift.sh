@@ -28,5 +28,5 @@ echo >> Sources/Swift${Mod}.swift "import GLib"
 echo >> Sources/Swift${Mod}.swift "import GIO"
 echo >> Sources/Swift${Mod}.swift ""
 echo >> Sources/Swift${Mod}.swift "public extension GdkPixbuf {"
-grep 'public typealias' Sources/${Module}.swift | sed 's/^/    /' >> Sources/Swift${Mod}.swift
+grep '^public typealias' Sources/${Module}.swift | sed 's/^/    /' >> Sources/Swift${Mod}.swift
 echo >> Sources/Swift${Mod}.swift "}"
