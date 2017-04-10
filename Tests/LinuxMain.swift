@@ -1,5 +1,5 @@
 import XCTest
-@testable import GdkPixbufTestSuite
+@testable import GdkPixbufTests
 
 XCTMain([
 	 testCase(GdkPixbufTests.allTests),
