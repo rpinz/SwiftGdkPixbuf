@@ -5,5 +5,3 @@ import GIO
 import GModule
 import GLibObject
 
-/// A simple iterator over pixbuf animations
-public typealias GdkPixbufSimpleAnimIter = GdkPixbufAnimationIter
