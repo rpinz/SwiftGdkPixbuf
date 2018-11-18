@@ -1,0 +1,3 @@
+[submodule "Library/CGdkPixbuf"]
+	path = Library/CGdkPixbuf
+	url = https://github.com/rpinz/CGdkPixbuf
